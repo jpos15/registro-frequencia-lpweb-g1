@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { LOCALE_ID } from '@angular/core';
 import { registerLocaleData } from '@angular/common';
@@ -12,14 +13,17 @@ import { DEFAULT_CURRENCY_CODE } from '@angular/core';
 registerLocaleData(localePt, 'pt', localePtExtra);
 
 import { AppComponent } from './app.component';
+import { RegistroFrequenciaComponent } from './registro-frequencia/registro-frequencia.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RegistroFrequenciaComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [
     {

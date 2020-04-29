@@ -1,0 +1,44 @@
+[
+    {
+        "numero": "M1A",
+        "nome": "Primeiro Ano do Médio – Turma A",
+        "alunos": [
+            {
+                "codigo": "1",
+                "nome": "José Silva"
+            },
+            {
+                "codigo": "2",
+                "nome": "Joana Marques"
+            }
+        ]
+    },
+    {
+        "numero": "M2B",
+        "nome": "Segundo Ano do Médio – Turma B",
+        "alunos": [
+            {
+                "codigo": "3",
+                "nome": "João Pedro"
+            },
+            {
+                "codigo": "4",
+                "nome": "Marcos Silva"
+            }
+        ]
+    },
+    {
+        "numero": "M3C",
+        "nome": "Terçeiro Ano do Médio – Turma C",
+        "alunos": [
+            {
+                "codigo": "5",
+                "nome": "Mateus Silveira"
+            },
+            {
+                "codigo": "6",
+                "nome": "Ana Beatriz"
+            }
+        ]
+    }
+]
